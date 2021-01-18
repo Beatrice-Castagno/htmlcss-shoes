@@ -8,16 +8,28 @@ body {
   font-family: 'Rubik Mono One', sans-serif;
   text-transform: uppercase;
 }
-
-section {
+section{
   position: relative;
   height: 100vh;
+}
+
+#section-1 {
   background-color: red;
+  color: yellow;
+}
+
+#section-2 {
+  background-color: green;
+  color: yellow;
+}
+
+#section-3 {
+  background-color: yellow;
+  color: green;
 }
 
 .shoes{
   position: absolute;
-  color:yellow;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
